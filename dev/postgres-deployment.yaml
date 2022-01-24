@@ -13,14 +13,6 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: tomcat-app
-        image: tomcat:latest
-        ports:
-        - containerPort: 8080
-      - name: elasticsearch
-        image: elasticsearch:latest
-        ports:
-        - containerPort: 8080
       - name: postgres-db
         image: postgres:latest
         ports:
