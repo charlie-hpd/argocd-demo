@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: elastic-app
+  name: python-app
 spec:
   selector:
     matchLabels:
@@ -13,7 +13,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: elasticsearch
-        image: elasticsearch:latest
+      - name: python-docker-10
+        image: charliehpd/python-docker-10
         ports:
         - containerPort: 8080
