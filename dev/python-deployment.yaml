@@ -13,7 +13,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: python-docker-10
-        image: charliehpd/python-docker-10
+      - name: wait-x-seconds
+        image: charliehpd/wait-x-seconds
         ports:
         - containerPort: 8080
