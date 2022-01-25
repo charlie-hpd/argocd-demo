@@ -12,6 +12,8 @@ spec:
       labels:
         app: myapp
     spec:
+      ttlSecondsAfterFinished: 20
+      restartPolicy: Never
       containers:
       - name: wait-x-seconds
         image: charliehpd/wait-x-seconds:1.0
