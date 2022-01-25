@@ -13,7 +13,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: wait-x-seconds
-        image: charliehpd/wait-x-seconds:1.1
+      - name: flask-app
+        image: charliehpd/flash-app:1.0
         ports:
         - containerPort: 8080
