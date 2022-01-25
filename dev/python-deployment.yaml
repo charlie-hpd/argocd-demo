@@ -17,4 +17,3 @@ spec:
         image: charliehpd/wait-x-seconds:1.0
         ports:
         - containerPort: 8080
-        restartPolicy: Never
